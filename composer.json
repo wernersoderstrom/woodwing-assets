@@ -1,12 +1,12 @@
 {
-    "name": "lasselehtinen/woodwing-assets",
+    "name": "wernersoderstrom/woodwing-assets",
     "description": "API wrapper for WoodWing Assets",
     "keywords": [
-        "lasselehtinen",
+        "wernersoderstrom",
         "laravel",
         "woodwing-assets"
     ],
-    "homepage": "https://github.com/lasselehtinen/woodwing-assets",
+    "homepage": "https://github.com/wernersoderstrom/woodwing-assets",
     "license": "MIT",
     "authors": [
         {
@@ -32,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LasseLehtinen\\Assets\\": "src",
-            "LasseLehtinen\\Assets\\Database\\Factories\\": "database/factories"
+            "Wernersoderstrom\\WoodwingAssets\\": "src",
+            "Wernersoderstrom\\WoodwingAssets\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LasseLehtinen\\Assets\\Tests\\": "tests"
+            "Wernersoderstrom\\WoodwingAssets\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LasseLehtinen\\Assets\\AssetsServiceProvider"
+                "Wernersoderstrom\\WoodwingAssets\\AssetsServiceProvider"
             ],
             "aliases": {
-                "Assets": "LasseLehtinen\\Assets\\Facades\\Assets"
+                "Assets": "Wernersoderstrom\\WoodwingAssets\\Facades\\Assets"
             }
         },
         "grumphp": {

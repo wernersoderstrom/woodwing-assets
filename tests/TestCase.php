@@ -1,10 +1,10 @@
 <?php
 
-namespace LasseLehtinen\Assets\Tests;
+namespace Wernersoderstrom\WoodwingAssets\Tests;
 
 use Dotenv\Dotenv;
-use LasseLehtinen\Assets\AssetsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Wernersoderstrom\WoodwingAssets\AssetsServiceProvider;
 
 class TestCase extends Orchestra
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LasseLehtinen\Assets\Facades;
+namespace Wernersoderstrom\WoodwingAssets\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \LasseLehtinen\Assets\Assets
+ * @see \Wernersoderstrom\WoodwingAssets\Assets
  */
 class Assets extends Facade
 {

@@ -3,9 +3,9 @@
 
 # API wrapper for WoodWing Assets
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lasselehtinen/woodwing-assets.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/woodwing-assets)
-[![Run tests](https://github.com/lasselehtinen/woodwing-assets/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/lasselehtinen/woodwing-assets/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/lasselehtinen/woodwing-assets.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/woodwing-assets)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wernersoderstrom/woodwing-assets.svg?style=flat-square)](https://packagist.org/packages/wernersoderstrom/woodwing-assets)
+[![Run tests](https://github.com/wernersoderstrom/woodwing-assets/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/wernersoderstrom/woodwing-assets/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/wernersoderstrom/woodwing-assets.svg?style=flat-square)](https://packagist.org/packages/wernersoderstrom/woodwing-assets)
 
 Package for doing REST API queries against Woodwings Elvis DAM (Digital Asset Management).
 
@@ -14,7 +14,7 @@ Package for doing REST API queries against Woodwings Elvis DAM (Digital Asset Ma
 You can install the package via composer:
 
 ```bash
-composer require lasselehtinen/woodwing-assets
+composer require wernersoderstrom/woodwing-assets
 ```
 You can publish the config file with:
 
@@ -47,7 +47,7 @@ return [
 ## Usage
 
 ```php
-$assets = new \LasseLehtinen\Assets\Assets();
+$assets = new \Wernersoderstrom\WoodwingAssets\Assets();
 $searchResults = $assets->search(query: 'Jari Tervo', num: 2);
 ```
 

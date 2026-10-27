@@ -1,6 +1,6 @@
 <?php
 
-namespace LasseLehtinen\Assets;
+namespace Wernersoderstrom\WoodwingAssets;
 
 use Exception;
 use GuzzleHttp\Client;

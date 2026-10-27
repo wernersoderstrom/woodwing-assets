@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Config;
-use LasseLehtinen\Assets\Assets;
+use Wernersoderstrom\WoodwingAssets\Assets;
 
 beforeEach(function () {
     $assets = new Assets;

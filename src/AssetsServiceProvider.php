@@ -1,6 +1,6 @@
 <?php
 
-namespace LasseLehtinen\Assets;
+namespace Wernersoderstrom\WoodwingAssets;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
