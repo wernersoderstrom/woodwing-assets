@@ -54,7 +54,11 @@
         },
         "policy": {
             "cooldown": {
-                "period": "7 days"
+                "period": "7 days",
+                "ignore": {
+                    "lasselehtinen/*": "Own packages, released by us",
+                    "wernersoderstrom/*": "Own packages, released by us"
+                }
             }
         }
     },
